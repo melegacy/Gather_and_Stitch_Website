@@ -1,40 +1,43 @@
 
-
+/*****HEADER*****/
 
 header {
-    background: grey;
-    border-color: grey;
-    border-width: 5px;
-    border-style: solid;
-    max-width: 100%
-    max-height: 500px;
+    background-color: #4d4d4d;
+    max-width: 100%;
+    padding: 0;
+    height: 100px;
 }
 
 header img {
-    max-width: 100%;
-    max-height: 500px;
-    margin-left: auto;
+    max-width: 250px;
+    margin-left: 10%;
     margin-right: auto;
-    display: block;
+    display: inline-block;
+    float: left;
+    border: 3px solid #4d4d4d;
 }
+
+
+
+/*****NAVIGATION*****/
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: inline-block;
 }
 
 nav li {
     float: left;
     display: inline;
-
 }
 
 a.menu-item:link, a.menu-item:visited {
     display: block;
     width: 120px;
-    background-color: #628200;
+    background-color: #4d4d4d;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -42,13 +45,5 @@ a.menu-item:link, a.menu-item:visited {
 }
 
 a.menu-item:hover, a.menu-item:active {
-    background-color: lightgrey;
-}
-
-.menu-item {
-
-}
-
-.menu-item {
-
+    background-color: #a9aca9;
 }
